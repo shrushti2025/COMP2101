@@ -12,7 +12,7 @@
 
 # roll the dice and display the result
 echo "
-Rolling a pair of 6-sided dice
+Rolling a pair of 6-sided dice....
 $(( RANDOM % 6 + 1)), $(( RANDOM % 6 + 1 )) rolled
 "
 
@@ -20,3 +20,4 @@ echo "
 rolling 6-sided dice...
 $((RANDOM % 6 + 1)),$((RANDOM % 6 + 1)),$((RANDOM % 6 + 1)),$((RANDOM % 6 + 1)),$((RANDOM % 6 + 1)) rolled
 "
+echo "one roll a 20-sided dice produced a $((RANDOM % 20 + 1))"
