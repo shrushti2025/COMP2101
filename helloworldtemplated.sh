@@ -4,4 +4,4 @@
 cat <<EOF
 Hello World!
 I am process # $$
-EO
+EOF
